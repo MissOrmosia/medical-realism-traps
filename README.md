@@ -74,7 +74,9 @@
 
 ## 持续更新
 
-本仓库**持续扩充中**（规划 500–800 条，按变体生成矩阵生产中）。版本线：
+本仓库**持续扩充中**（规划 500–800 条，按变体生成矩阵生产中）。点击查看历史版本原始记录：
+* 📄 [v1.0 试吃版（23 条）](https://github.com/MissOrmosia/medical-realism-traps/blob/main/docs/realism-traps-v1.0.md)
+* 📄 [v2.0 基线版（56 条）](https://github.com/MissOrmosia/medical-realism-traps/blob/main/docs/realism-traps-v2.0.md)
 
 | 版本 | 规模 | 说明 |
 | --- | --- | --- |
@@ -83,11 +85,14 @@
 
 > **版本规则**：v2.0 为当前基线快照。此后每次扩充按 v2.1、v2.2 顺延，仅记录新增条目。关注本仓库可收到更新通知。
 
-## 声明
+## 声明与免责
 
-- **危机内容声明**：TRAP-48/49/53 涉及自杀风险，仅用于评测模型的危机干预能力；任何人在现实中遇到类似处境，请拨打北京心理危机研究与干预中心热线（010-82951332）或当地紧急电话。
-- **AI 协作声明**：全部 Prompt 由作者（临床医生）独立设计；DeepSeek 及Kimi参与讨论与整理；`AI盲区`标注为评测目标说明。
-- 全部案例均已脱敏，不含可识别的患者/机构信息。
+**本项目系作者作为“独立 AI 研究者（Independent Researcher）”的个人业余学术探索，绝不代表作者供职的任何医疗机构、组织或雇主的官方立场、政策或意见。**
+
+1. **数据脱敏与合规**：本语料库中所有的临床场景与 Prompt，均基于作者的个人临床经验，经过**深度的文学化抽象、解构与重构**。所有案例均已进行不可逆的脱敏处理，**不包含任何可识别的患者隐私信息（PHI）或特定医疗机构信息**。本项目未使用任何未经伦理审批或未脱敏的院内真实病历数据。
+2. **医学免责**：本项目提供的所有“陷阱（TRAP）”与“AI 盲区”分析，仅供大模型的安全测试与 AI 学术研究使用，**不构成任何形式的专业医疗诊断或治疗建议**。任何人依据本语料库内容做出的医疗决策，风险自负。
+3. **危机内容声明**：TRAP-48 / TRAP-49 / TRAP-53 涉及自杀风险，仅用于评测模型的危机干预能力；任何人在现实中遇到类似处境，请拨打北京心理危机研究与干预中心热线（010-82951332）或当地紧急电话。
+4. **AI 协作声明**：全部 Prompt 由作者（临床医生）独立设计；DeepSeek 及 Kimi 参与讨论与整理。`AI盲区`标注为评测目标说明。
 
 ## 姊妹项目
 
@@ -119,13 +124,24 @@ Every entry carries the texture of two irreplaceable sources: a clinician who ha
 
 ## Continuously Updated
 
-This repo is **actively expanding** (target: 500–800 entries via a variant-generation matrix; ~20 entries/week in recent sprints). Watch the repo for updates.
+This repository is **actively expanding** (target: 500–800 entries via a variant-generation matrix). Click to view historical versions:
+* 📄 [v1.0 Original Trial Version (23 items)](https://github.com/MissOrmosia/medical-realism-traps/blob/main/docs/realism-traps-v1.0.md)
+* 📄 [v2.0 Baseline Version (56 items)](https://github.com/MissOrmosia/medical-realism-traps/blob/main/docs/realism-traps-v2.0.md)
 
-## Disclaimers
+| Version | Size | Description |
+| --- | --- | --- |
+| v1.0 | 23 categories (30 items) | Initial version |
+| v2.0 (Current) | **56 items** | Three major taxonomy families established |
 
-- Crisis-content notice: TRAP-48/49/53 involve suicide risk and are for evaluating crisis-intervention capability only. If you or someone you know is in crisis, please call your local emergency number or a crisis hotline.
-- AI-collaboration disclosure: all prompts were designed by the author (a physician); DeepSeek participated in discussion and organization. The "AI blind spot" notes describe evaluation targets.
-- All cases are de-identified.
+> **Versioning Rule**: v2.0 serves as the baseline snapshot. Subsequent expansions will be numbered sequentially (v2.1, v2.2...), recording only newly added items. Watch this repository to receive updates.
+
+**Disclaimer:**
+**This project is the personal academic exploration of the author acting in an "independent researcher" capacity and does not represent the official position, policies, or opinions of the author's affiliated institution.**
+
+1. **Data De-identification & Compliance**: All clinical scenarios and prompts are deeply de-identified, literary abstractions based on the author's clinical experience. **No unredacted patient health information (PHI) or institutional data was used.**
+2. **Medical Disclaimer**: The "traps" and "AI blind spots" are for AI safety testing and academic research only and **do not constitute professional medical advice**. Any clinical decisions made based on this corpus are strictly at your own risk.
+3. **Crisis-content notice**: TRAP-48 / 49 / 53 involve suicide risk and are for evaluating crisis-intervention capability only. If you or someone you know is in crisis, please call your local emergency number or a crisis hotline.
+4. **AI-collaboration disclosure**: All prompts were designed by the author (a physician); DeepSeek and Kimi participated in discussion and organization.
 
 ## Sister Projects
 
